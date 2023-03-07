@@ -1,9 +1,10 @@
 import React from "react";
+import photo from "../images/photo.jpg"
 
 export default function Header() {
     return(
         <header>
-            <img src="./images/photo.jpg" className="header--photo" />
+            <img src={photo} className="header--photo" alt="card" />
                 <div className="header--info">
                     <p className="header--name">Patricia Maria Muresan</p>
                     <p className="header--title">Frontend Developer</p>
